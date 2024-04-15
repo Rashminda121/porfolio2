@@ -13,12 +13,12 @@
     <header>
         <div class="logo"><span>R</span>ashminda.</div>
         <ul class="navlist">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" style="--i:1;">Home</a></li>
+        <li><a href="#about" style="--i:2;">About</a></li>
+        <li><a href="#services" style="--i:3;">Services</a></li>
+        <li><a href="#skills" style="--i:4;">Skills</a></li>
+        <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+        <li><a href="#contact" style="--i:6;">Contact</a></li>
         </ul>
 
         <div id="menu-icon" class="bx bx-menu"></div>
@@ -27,7 +27,7 @@
     <!-- home section -->
 
     <section id="home" class="home">
-        <div class="home-content">
+        <div class="home-content scroll-scale">
             <h1>Hi! I'm JC Rashminda</h1>
             <div class="change-text">
                 <h3>And I'm</h3>
@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <div class="home-image">
+        <div class="home-image scroll-scale">
             <div class="img-box">
                 <img src="img/profile/pr.png" alt="" >
             </div>
@@ -123,7 +123,7 @@
 
     <!-- about section -->
     <section id="about" class="about">
-        <div class="img-about">
+        <div class="img-about scroll-scale">
             <img src="img/profile/pr.png" alt="">
             <div class="info-about1">
                 <span>2+</span>
@@ -138,7 +138,7 @@
                 <p>Happy Clients</p>
             </div>
         </div>
-        <div class="about-content">
+        <div class="about-content scroll-scale">
             <span>Let me introduce myself</span>
             <h2>About Me</h2>
             <h3>Technology Enthusiastic</h3>
@@ -156,11 +156,11 @@
     <!-- services section -->
 
     <section id="services" class="services">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>what i will do for you</span>
             <h2>Our Services</h2>
         </div>
-        <div class="section-services">
+        <div class="section-services scroll-bottom">
             <div class="service-box">
                 <i class='bx bxs-layer service-icon'></i>
                 <h3>Graphic Designer</h3>
@@ -200,13 +200,13 @@
 
     <!-- skill section -->
     <section id="skills" class="skills">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
           <span>technical and professional</span>
           <h2>My Skills</h2>
         </div>
 
         <div class="skill-main">
-            <div class="skill-left">
+            <div class="skill-left scroll-scale">
               <h3>Technical Skills</h3>
               <div class="skill-bar">
                 <div class="info">
@@ -328,7 +328,7 @@
 
             </div>
             <!-- skill right -->
-            <div class="skill-right">
+            <div class="skill-right scroll-scale">
                 <h3>Professional Skills</h3>
                 <div class="professional">
 
@@ -400,22 +400,132 @@
     <!-- portfolio section -->
 
     <section id="portfolio" class="portfolio">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
           <span>What i will do for you</span>
           <h2>Latest Project</h2>
         </div>
 
-        
+        <div class="container">
+          <div class="fillter-buttons scroll-scale">
+            <button class="button" data-filter="all">All</button>
+            <button class="button" data-filter=".product">Product</button>
+            <button class="button" data-filter=".java">Java</button>
+            <button class="button" data-filter=".web">Web App</button>
+            <button class="button" data-filter=".doc">Document</button>
+          </div>
+ 
+          <div class="portfolio-gallery scroll-bottom">
+            <div class="port-box mix product">
+              <div class="port-image">
+                <img src="img/1.jpg" alt="">
+              </div>
+              <div class="port-content">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Repellendus sint velit quos perspiciatis iste tenetur doloremque perferendis.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
 
-
-
-
+            <div class="port-box mix product">
+              <div class="port-image">
+                <img src="img/2.jpg" alt="">
+              </div>
+              <div class="port-content">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Repellendus sint velit quos perspiciatis iste tenetur doloremque perferendis.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div class="port-box mix java">
+              <div class="port-image">
+                <img src="img/3.jpg" alt="">
+              </div>
+              <div class="port-content">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Repellendus sint velit quos perspiciatis iste tenetur doloremque perferendis.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div class="port-box mix java">
+              <div class="port-image">
+                <img src="img/4.jpg" alt="">
+              </div>
+              <div class="port-content">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Repellendus sint velit quos perspiciatis iste tenetur doloremque perferendis.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div class="port-box mix web">
+              <div class="port-image">
+                <img src="img/4.jpg" alt="">
+              </div>
+              <div class="port-content">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Repellendus sint velit quos perspiciatis iste tenetur doloremque perferendis.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div class="port-box mix doc">
+              <div class="port-image">
+                <img src="img/4.jpg" alt="">
+              </div>
+              <div class="port-content">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Repellendus sint velit quos perspiciatis iste tenetur doloremque perferendis.
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
 
+    <!-- contact section -->
+    <section id="contact" class="contant">
+      <div class="main-text scroll-scale">
+        <span>ask me question</span>
+        <h2>Contact Me</h2>
+      </div>
+      <form action="#" class="scroll-bottom">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <input type="text" placeholder="Your Address">
+        <input type="number" placeholder="Phone Number">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div class="btn-box formBtn">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <p class="scroll-scale">Copyright &copy; 2024 by Rashminda || All Right Reservd.</p>
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
 
 
 
-
+    <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
