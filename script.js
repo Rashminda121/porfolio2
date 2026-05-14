@@ -131,6 +131,9 @@ scrollBottom.forEach((el)=>observer.observe (el));
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe (el));
 
+// Set current year automatically in footer
+document.getElementById("year").textContent = new Date().getFullYear();
+
 
 
 
